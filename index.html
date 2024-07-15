@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natacha Miniconi</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
     <header>
@@ -15,9 +14,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#projets">Projets</a></li>
                 <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -26,17 +25,18 @@
         <div class="container">
             <h2>À Propos</h2>
             <div class="card-horizontal card">
-                <img src="apropos.jpg" alt="À Propos">
+                <img src="apropos.jpg" alt="image">
                 <div class="card-content">
-                    <h3>Natacha Miniconi</h3>
-                    <p>En savoir plus sur moi et mon parcours professionnel.</p>
+
+                    <p>Je suis actuellement doctorante au LIUM sous la direction d'Antony Larcher et Meysam Shamsi. Le sujet de la thèse s'intitule : </p>
+                    <p>domaine de recherche : </p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="accueil">
+    <section id="projets">
         <div class="container">
-            <h2>Projets aperçu</h2>
+            <h2>Projets</h2>
             <div class="card">
                 <img src="image1.jpg" alt="Image 1">
                 <div class="card-content">
@@ -63,25 +63,21 @@
 
     <section id="projets">
         <div class="container">
-            <h2>Projets</h2>
             <div class="card large-card">
                 <img src="image4.jpg" alt="Detection et Catégorisation automatique de parole dysarthrique">
                 <div class="card-content">
-                    <h3>Detection et Catégorisation automatique de parole dysarthrique</h3>
                     <p>Utilisation de modèle NLP tel que : Réseau de neurone convolutif, Regression Logistique, MLP pour tester plusieurs types d'entrée pour la detection et la catégorisation de parole dysarthrique.</p>
                 </div>
             </div>
             <div class="card large-card">
                 <img src="image5.jpg" alt="API Mod Cepst">
                 <div class="card-content">
-                    <h3>Interface d'extraction de mesures articulatoire et acoustiques</h3>
                     <p>Création d'une api pour l'extraction automatique de mesures acoustique sur modulation cepstrale, courbes formantiques...</p>
                 </div>
             </div>
             <div class="card large-card">
                 <img src="image6.jpg" alt="Quest Quill">
                 <div class="card-content">
-                    <h3>Quest Quill</h3>
                     <p>Générateur de JDR automatique à l'aide de transformer</p>
                 </div>
             </div>
@@ -89,12 +85,24 @@
         </div>
     </section>
 
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
+            <div class="card large-card">
+                <div class="card-content">
+                    <h3>JEP TALN 2024 - Comparaison de mesures pour la détéction automatique de déviance dans la parole dysarthrique</h3>
+                    <p>Cette étude explore l’utilisation d’un Réseau de Neurones Convolutifs (CNN) pour distinguer la parole de patients dysarthriques ataxiques de celle de locuteurs neurotypiques, en utilisant diverses entrées. L’objectif est d’extraire automatiquement des informations pertinentes sur les troubles de la parole. Le CNN est utilisé pour exploiter les caractéristiques temporelles et spectrales des signaux de parole via des spectrogrammes, des trajectoires de formants et des courbes de modulation cepstrale. Comparé à un Multi-Layer Perceptron (MLP) alimenté par des mesures acoustico-phonétiques ciblées sur la modulation cepstrale, le CNN présente de meilleurs scores de classification dans la distinction entre dysarthrie et non dysarthrie, en particulier avec la modulation cepstrale. La population CTRL obtient de meilleurs taux de classification que la population SCA avec un MLP, alors qu’on on observe l’inverse avec un CNN. </p>
+                </div>
+            </div>
 
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="container">
             <h2>Contact</h2>
-            <p>Contactez-moi pour toute question ou opportunité de collaboration.</p>
+            <p>Contactez-moi pour toute question ou opportunité de collaboration sous cette adresse mail : .</p>
         </div>
     </section>
 
