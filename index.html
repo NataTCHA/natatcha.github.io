@@ -5,54 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natacha Miniconi</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Natacha Miniconi</h1>
-            <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#apropos">À Propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="header-left">
+            <div class="title">Natacha Miniconi</div>
+            <div class="subtitle">Doctorante en IA</div>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
+    <section id="apropos">
+        <div class="container">
+            <h2>À Propos</h2>
+            <div class="card-horizontal card">
+                <img src="apropos.jpg" alt="À Propos">
+                <div class="card-content">
+                    <h3>Natacha Miniconi</h3>
+                    <p>En savoir plus sur moi et mon parcours professionnel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="accueil">
         <div class="container">
-            <h2>Accueil</h2>
-            <p>Bienvenue sur mon portfolio. Découvrez mes projets récents et en apprendre plus sur moi.</p>
+            <h2>Projets aperçu</h2>
+            <div class="card">
+                <img src="image1.jpg" alt="Image 1">
+                <div class="card-content">
+                    <h3>Detection et Catégorisation automatique de paroles dysarthriques</h3>
+                    <p>Description du projet 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image2.png" alt="Image 2">
+                <div class="card-content">
+                    <h3>Interface d'extraction de mesures articulatoires et acoustiques</h3>
+                    <p>Description du projet 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image3.jpg" alt="Image 3">
+                <div class="card-content">
+                    <h3>Quest Quill</h3>
+                    <p>Description du projet 3.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projets">
         <div class="container">
             <h2>Projets</h2>
-            <div class="project">
-                <h3>Detection et Catégorisation automatique de parole dysarthrique</h3>
-                <p>Utilisation de modèle NLP tel que : Réseau de neurone convolutif, Regression Logistique, MLP pour tester plusieurs types d'entrée pour la detection et la catégorisation de parole dysarthrique.</p>
+            <div class="card large-card">
+                <img src="image4.jpg" alt="Detection et Catégorisation automatique de parole dysarthrique">
+                <div class="card-content">
+                    <h3>Detection et Catégorisation automatique de parole dysarthrique</h3>
+                    <p>Utilisation de modèle NLP tel que : Réseau de neurone convolutif, Regression Logistique, MLP pour tester plusieurs types d'entrée pour la detection et la catégorisation de parole dysarthrique.</p>
+                </div>
             </div>
-            <div class="project">
-                <h3>API Mod Cepst</h3>
-                <p>Création d'une api pour l'extraction automatique de mesures acoustique sur modulation cepstrale, courbes formantiques...</p>
+            <div class="card large-card">
+                <img src="image5.jpg" alt="API Mod Cepst">
+                <div class="card-content">
+                    <h3>Interface d'extraction de mesures articulatoire et acoustiques</h3>
+                    <p>Création d'une api pour l'extraction automatique de mesures acoustique sur modulation cepstrale, courbes formantiques...</p>
+                </div>
             </div>
-            <div class="project">
-                <h3>Quest Quill</h3>
-                <p>Générateur de JDR automatique à l'aide de transformer</p>
+            <div class="card large-card">
+                <img src="image6.jpg" alt="Quest Quill">
+                <div class="card-content">
+                    <h3>Quest Quill</h3>
+                    <p>Générateur de JDR automatique à l'aide de transformer</p>
+                </div>
             </div>
             <!-- Ajoutez plus de projets ici -->
         </div>
     </section>
 
-    <section id="apropos">
-        <div class="container">
-            <h2>À Propos</h2>
-            <p>En savoir plus sur moi et mon parcours professionnel.</p>
-        </div>
-    </section>
+
 
     <section id="contact">
         <div class="container">
